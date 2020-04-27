@@ -1,0 +1,15 @@
+
+<div class="wrap">
+  <form class="search centered" (ngSubmit)="onSubmit()">
+    <input type="text" placeholder="type username" 
+    [(ngModel)]="user" name="user">
+    <button type="submit" class="btn">search user</button>
+  </form>
+  <div class="indication centered" [ngClass]="{'hidden': data.length}">
+    Please write a username!
+  </div>
+
+  <p [ngClass]="{'hidden': data.length == 0}">
+    {{user}}'s repositories are: 
+  </p>
+</div>

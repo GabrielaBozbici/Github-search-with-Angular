@@ -1,0 +1,35 @@
+
+.search input {
+  margin-bottom: 30px;
+  height: 30px;
+}
+
+.search input :focus {
+  outline: none !important;
+  outline-color: transparent;
+}
+.btn {
+  background-color: rgb(0, 188, 212);
+  height: 36px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.btn :hover{
+  background-color: rgb(198, 240, 245);;
+}
+
+.centered {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
